@@ -2,8 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".activities.BookDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/black"
+        />
 
     <ImageView
         android:id="@+id/ivBookCover"
@@ -26,5 +36,7 @@
         android:layout_height="wrap_content"
         android:textSize="22sp"
         android:layout_marginTop="8dp" />
+
+
 
 </LinearLayout>

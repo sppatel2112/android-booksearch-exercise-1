@@ -8,6 +8,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Book {
     private String openLibraryId;
     private String author;
